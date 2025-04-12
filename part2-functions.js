@@ -14,7 +14,7 @@ function calculateTip(total, percentage) {
     let tip = (total * percentage) / 100;
     return tip;
 }
-console.log(total, percentage)
+console.log(calculateTip)
 
 function checkEvenOdd(num) {
     if (num % 2 === 0) {
@@ -23,6 +23,7 @@ function checkEvenOdd(num) {
         return 'Odd';
     }
 }
+console.log(checkEvenOdd)
 
 // Example usage:
 console.log(checkEvenOdd(4)); // Output: Even
