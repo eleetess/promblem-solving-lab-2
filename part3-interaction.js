@@ -1,12 +1,8 @@
 function sayHello() {
- let greeting="hello"
- let Element=document.getElementById("message");
- textcontent="hello from Codex"
+  document.getElementById("message").innerHTML = "something different";
 }
 
-function showName(Erica) {
-    let Erica=showName
-    let element=document.getElementById("output");
-    let output=showName
-  
+function showName() {
+  let username = document.getElementById("nameInput").value;
+  document.getElementById("output").innerHTML = username;
 }

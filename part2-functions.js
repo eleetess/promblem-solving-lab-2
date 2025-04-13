@@ -1,29 +1,29 @@
 function dogToHumanYears(dogAge) {
-  return (dogyears) * (HumanYears);
+  return dogyears * HumanYears;
 }
-let dogyears=1
-let HumanYears=7
-let dogAge=7
-console.log(dogAge)
+let dogyears = 1;
+let HumanYears = 7;
+let dogAge = 7;
+console.log(dogAge);
 
 function calculateTip(total, percentage) {
-    if (total <= 0 || percentage < 0) {
-        return "Invalid input. Please enter positive values for total and percentage.";
-    }
-    let totalAmount=(100)
-    let tip = (total * percentage) / 100;
-    return tip;
+  if (total <= 0 || percentage < 0) {
+    return "Invalid input. Please enter positive values for total and percentage.";
+  }
+  let totalAmount = 100;
+  let tip = (total * percentage) / 100;
+  return tip;
 }
-console.log(calculateTip)
+console.log(calculateTip);
 
 function checkEvenOdd(num) {
-    if (num % 2 === 0) {
-        return 'Even';
-    } else {
-        return 'Odd';
-    }
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
 }
-console.log(checkEvenOdd)
+console.log(checkEvenOdd);
 
 // Example usage:
 console.log(checkEvenOdd(4)); // Output: Even
