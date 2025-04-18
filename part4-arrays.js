@@ -23,8 +23,8 @@ guestList.push (["Legolas"]);
  let tasks = ["laundry", "groceries", "coding", "naps"]
  //Write a function called printTasks() that loops through the array and logs each task
  function printTaskList(tasks) {
-  ;
-
+ for(let i=0;) i <5;
+console.log(tasks)
   }
     
 
