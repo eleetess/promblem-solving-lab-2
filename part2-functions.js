@@ -4,7 +4,7 @@ function dogToHumanYears(dogAge) {
 let dogyears = 1;
 let HumanYears = 7;
 let dogAge = 7;
-console.log(dogAge);
+console.log(dogToHumanYears(dogAge));
 
 function calculateTip(total, percentage) {
   if (total <= 0 || percentage < 0) {
@@ -14,7 +14,7 @@ function calculateTip(total, percentage) {
   let tip = (total * percentage) / 100;
   return tip;
 }
-console.log(calculateTip);
+console.log(calculateTip(total,percentage));
 
 function checkEvenOdd(num) {
   if (num % 2 === 0) {
@@ -23,7 +23,7 @@ function checkEvenOdd(num) {
     return "Odd";
   }
 }
-console.log(checkEvenOdd);
+console.log(checkEvenOdd(num));
 
 // Example usage:
 console.log(checkEvenOdd(4)); // Output: Even
