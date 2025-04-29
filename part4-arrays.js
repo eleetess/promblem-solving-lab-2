@@ -4,10 +4,8 @@ console.log("somethingNew");
 //Log the first and last food in the array
 //Add one more food using .push() and log the new array.
 let favoriteFood = ["Jambalaya", "Gumbo", "Crawfish", "Shrimp", "Pasta"]; //why are they white?
-favoriteFood.push(["cheesecake", "pizza"]);
-console.log("Jambalaya");
-console.log("Pasta");
-console.log("cheesecake", "pizza");
+favoriteFood.push("cheeseCake");
+console.log(favoriteFood[favoriteFood.length - 1])
 //Problem 2: Guest List
 //. Create an array with a list of guests.
 let guestList = ["Merry", "Frodo", "Sam", "Pippin"];
@@ -15,7 +13,7 @@ let guestList = ["Merry", "Frodo", "Sam", "Pippin"];
 console.log(guestList);
 let removeFromguestList = guestList.shift();
 // Add a new guest at the end using .push()
-guestList.push(["Legolas"]);
+guestList.push("Legolas");
 //Log how many guests are coming (.length)
 let numberOfGuest = guestList.length;
 console.log(guestList.length);
